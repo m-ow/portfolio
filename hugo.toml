@@ -1,4 +1,4 @@
-baseURL = "https://m-ow.github.io/portfolio/" 
+baseURL = "http://m-ow.tech/" 
 languageCode = "en-us"
 title = "Max Martínez"
 theme = "PaperMod"
