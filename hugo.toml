@@ -1,0 +1,39 @@
+baseURL = "https://m-ow.github.io/portfolio/" 
+languageCode = "en-us"
+title = "Max Martínez"
+theme = "PaperMod"
+
+[params]
+  author = "Max Martínez"
+  description = "Computer Science student focused on formal methods and theorem proving."
+  ShowShareButtons = false
+  ShowReadingTime = false
+  ShowPostNavLinks = false
+
+  [params.homeInfoParams]
+    Title = "Max Martínez"
+    Content = "Computer Science student at UNAM focused on formal methods, theorem proving, and the construction of provably correct software."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/m-ow" 
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/maxonomar/" 
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:maxonomar@ciencias.unam.mx" 
+
+[menu]
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume.pdf"
+    weight = 20
